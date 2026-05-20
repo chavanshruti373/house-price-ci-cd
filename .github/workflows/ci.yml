@@ -31,8 +31,8 @@ jobs:
 
     - name: Train model
       run: |
-        python src/train.py
+        python -m src.train
 
     - name: Evaluate model
       run: |
-        python src/evaluate.py
+        python -m src.evaluate
